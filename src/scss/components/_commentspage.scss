@@ -1,0 +1,85 @@
+
+
+
+
+.containercomments1{
+    min-height: 100%;
+    height: max-content;
+    padding: 1rem 1rem;
+    width: 100%;
+    position: relative;
+        .commentlabel{
+            width: 100%;
+            height: max-content;
+            text-align: center;
+            letter-spacing: 3px;
+            font-size: medium;
+            padding: 1rem 0;
+        }
+        .hi{
+            margin: 0.2rem 0;
+            height: max-content;
+            .rootcomment{
+            width: 15rem;
+            height: max-content;
+            min-height: 1rem;
+            background-color: rgba(128, 128, 128, 0.507);
+            padding: 0.2rem;
+            position: relative;
+            margin: 0.4rem 0;
+                .anon{
+                    width: 100%;
+                    height: max-content;
+                }
+                .anon2{
+                    width: 100%;
+                    height: min-content;
+                    font-size: x-small;
+                }
+                .bodycomment1{
+                    width: 100%;
+                    height: min-content;
+                    font-size: small;
+                    padding: 0.4rem 0;
+                }
+            }
+            .replydiv{
+                width: 100%;
+                height: max-content;
+                position: relative;
+                    .replytrext{
+                        width: 100%;
+                        font-size: xx-small;
+                        color: white;
+                        letter-spacing: 1px;
+                    }
+                    .setaxiosreply{
+                        width: max-content;
+                        padding: 0.1rem 0.2rem;
+                        letter-spacing: 1px;
+                        border: 1px solid white;
+                        background-color: black;
+                        border-radius: 2px;
+                        color: white;
+                    }
+                    .replymessage{
+                        border: 1px solid white;
+                        background-color: black;
+                        padding: 0.2rem;
+                        color: white;
+                        letter-spacing: 1px;
+                        width: 100%;
+                        margin: 0.2rem 0;
+                    }
+            }
+        }
+}
+
+
+
+
+
+
+
+
+

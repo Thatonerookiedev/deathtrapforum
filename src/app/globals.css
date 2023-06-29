@@ -1,0 +1,84 @@
+
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  cursor: url('../../public/bone.jpg'),auto;
+}
+
+html,body{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: black;
+}
+
+
+html{
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
+
+body{
+  background-image: url('../../public/backgroundimage.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: inherit;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: proximity;
+  scrollbar-width: 0px;
+  cursor: url('../../public/bone.jpg'),auto;
+}
+
+body::-webkit-scrollbar{
+  width: 0px;
+}
+
+
+/* scroll bar */
+
+
+/* Firefox */
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #8F8F8F #E7F1F3;
+}
+
+/* Chrome, Edge and Safari */
+body::-webkit-scrollbar {
+  width: 10px;
+  width: 10px;
+}
+body::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #E7F1F3;
+}
+
+body::-webkit-scrollbar-track:hover {
+  background-color: #D0D9DB;
+}
+
+body::-webkit-scrollbar-track:active {
+  background-color: #C4CDCF;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #8F8F8F;
+  border: 1px solid #DADADA;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #7A7A7A;
+}
+
+body::-webkit-scrollbar-thumb:active {
+  background-color: #666666;
+}

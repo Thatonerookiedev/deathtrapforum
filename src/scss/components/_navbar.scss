@@ -1,0 +1,50 @@
+@use '../mixins/fontsize' as *;
+
+
+
+
+
+.navbar-container{
+    width: 100%;
+    min-height: 3rem;
+    padding: 0.5rem 0;
+    height: min-content;
+    // -webkit-box-shadow: 0px 9px 50px -6px rgba(196,178,196,1);
+    // -moz-box-shadow: 0px 9px 50px -6px rgba(196,178,196,1);
+    // box-shadow: 0px 9px 50px -6px rgba(196,178,196,1);
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+        .navlink{
+            color: white;
+            text-decoration: none;
+            @include resize(15px);
+            letter-spacing: 2px;
+            font-weight: 100;
+            padding: 0.2rem 0.5rem;
+            &:hover{
+                transition: all 0.8s;
+                color: red;
+                cursor: url('../../../public/bone.jpg'),auto;
+            }
+                &:last-child{
+                    margin-right: auto;
+                }
+                &:nth-child(1){
+                    margin-left: auto;
+                }
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
